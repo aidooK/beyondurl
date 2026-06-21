@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --color-teal: #1B4D6B;
+  --color-teal-dark: #123448;
+  --color-teal-tint: #E7EEF1;
+  --color-amber: #F5A623;
+  --color-amber-dark: #D88E0F;
+  --color-bg: #F9F9F7;
+  --color-charcoal: #1C1C1E;
+  --color-charcoal-soft: #54555A;
+  --color-border: #E3E0D8;
+  --color-white: #FFFFFF;
+}
+
+@theme inline {
+  --color-teal: var(--color-teal);
+  --color-teal-dark: var(--color-teal-dark);
+  --color-teal-tint: var(--color-teal-tint);
+  --color-amber: var(--color-amber);
+  --color-amber-dark: var(--color-amber-dark);
+  --color-bg: var(--color-bg);
+  --color-charcoal: var(--color-charcoal);
+  --color-charcoal-soft: var(--color-charcoal-soft);
+  --color-border: var(--color-border);
+
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-teal-dark);
+}
+
+/* Visible keyboard focus ring across the site */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
