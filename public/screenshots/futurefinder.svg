@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 260" width="390" height="260">
+  <!-- Background: dark charcoal like the site -->
+  <rect width="390" height="260" fill="#1a1a1a"/>
+
+  <!-- Top nav bar -->
+  <rect width="390" height="52" fill="#111111"/>
+  <!-- Logo box -->
+  <rect x="16" y="12" width="44" height="28" rx="6" fill="#e8302a"/>
+  <text x="38" y="31" font-family="Arial" font-size="7" fill="white" text-anchor="middle" font-weight="bold">FF</text>
+  <!-- Hamburger -->
+  <line x1="350" y1="22" x2="370" y2="22" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="350" y1="28" x2="370" y2="28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="350" y1="34" x2="370" y2="34" stroke="white" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Eyebrow tag -->
+  <circle cx="26" cy="70" r="7" fill="none" stroke="#e8302a" stroke-width="1.5"/>
+  <text x="36" y="74" font-family="Arial" font-size="8" fill="#cccccc" letter-spacing="1">FOR AFRICAN &amp; GHANAIAN YOUTH</text>
+
+  <!-- Big headline -->
+  <text x="16" y="104" font-family="Arial Black, Arial" font-size="22" fill="white" font-weight="900">Real Opportunities</text>
+  <text x="16" y="130" font-family="Arial Black, Arial" font-size="22" fill="white" font-weight="900">for African Youth.</text>
+  <text x="16" y="156" font-family="Arial Black, Arial" font-size="22" fill="white" font-weight="900">Daily.</text>
+
+  <!-- Subhead -->
+  <text x="16" y="176" font-family="Arial" font-size="10" fill="#aaaaaa">Jobs, Scholarships &amp; Study Abroad Programs</text>
+  <text x="16" y="190" font-family="Arial" font-size="10" fill="#aaaaaa">— Updated Every Day</text>
+
+  <!-- CTA buttons -->
+  <rect x="16" y="202" width="170" height="28" rx="4" fill="none" stroke="#e8302a" stroke-width="1.5"/>
+  <text x="101" y="221" font-family="Arial" font-size="8" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="0.5">BROWSE DAILY OPPORTUNITIES</text>
+
+  <!-- Stats row -->
+  <text x="16" y="252" font-family="Arial Black, Arial" font-size="14" fill="white" font-weight="900">5</text>
+  <text x="16" y="263" font-family="Arial" font-size="7" fill="#888888" letter-spacing="1">CATEGORIES</text>
+  <text x="90" y="252" font-family="Arial Black, Arial" font-size="14" fill="white" font-weight="900">Daily</text>
+  <text x="90" y="263" font-family="Arial" font-size="7" fill="#888888" letter-spacing="1">UPDATES</text>
+  <text x="170" y="252" font-family="Arial Black, Arial" font-size="14" fill="white" font-weight="900">Free</text>
+  <text x="170" y="263" font-family="Arial" font-size="7" fill="#888888" letter-spacing="1">FOREVER</text>
+
+  <!-- URL bar at bottom -->
+  <rect x="80" y="270" width="230" height="22" rx="11" fill="#333333"/>
+  <text x="195" y="285" font-family="Arial" font-size="9" fill="#cccccc" text-anchor="middle">futurefinder.blog</text>
+</svg>
